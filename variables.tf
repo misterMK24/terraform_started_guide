@@ -23,7 +23,6 @@ variable "slack_webhook" {
 variable "kms_key_arn" {
   description = "predefined kms key"
 
-  type    = string
-  default = "arn:aws:kms:eu-central-1:130312726754:key/19e691d1-ce71-40d2-a254-b9e062cd6257"
+  type = string
 }
 
